@@ -1,0 +1,398 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Muli');
+/*----------------------------------------------------------------
+  Branding Colour
+----------------------------------------------------------------*/
+
+#content h1,
+#content h2,
+#content h3 {
+    color:#fff;
+}
+
+body, 
+ul li {
+    color: #fff;
+    font-weight: 100;
+}
+#banner h1, 
+#banner p {
+    color: #fffdfd;
+}
+
+.formbuilder-form label,
+#contact h1,
+#contact h2,
+#contact h3,
+#contact p {
+    color: #464646;
+}
+#header2a:before,
+header a, 
+header span, 
+#header2a a,
+#header2b a,
+#header2b a:hover,
+footer a:hover {
+    color: #000;
+}
+.contact_detail,
+.contact_detail a,
+.contact_detail a:hover,
+.contact_detail a:focus {
+    color: #fff;
+}
+
+#services h3 {
+/*    background-color: rgb(156, 105, 38);*/
+    color: #9ff5ff;
+    border-radius:5px;
+    padding: 5px;
+
+}
+
+#services p {
+    color: #fff;
+}
+
+#banner h1  {
+    font-weight: 400;
+}
+
+h2,
+h3,
+strong{
+    font-weight: 600;
+}
+
+
+#header2b a,
+footer a, 
+.btn, 
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4,
+p, 
+footer,
+.btn, 
+.formbuilder-form label,
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+/*----------------------------------------------------------------
+- Form
+----------------------------------------------------------------*/
+
+.form, 
+#quote_form_form, 
+#extraFormsContainer .modal-dialog {
+  border-radius: 0px;
+  box-shadow: 0 0px 5px 2px rgba(0,0,0,.1);
+  background-color: rgba(252, 250, 250, 0.91);
+}
+
+.formbuilder-form input, 
+.formbuilder-form textarea, 
+.formbuilder-form select, 
+.formbuilder-form select option {
+    color: black;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+/*----------------------------------------------------------------
+- Buttons
+----------------------------------------------------------------*/
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    color: #fff;
+    background-color: #dd4b39;
+    border-radius: 0px;
+}
+@media (min-width: 711px) {
+    .btn:hover,
+    .formbuilder-form input#submit-form:hover, 
+    #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+        background-color: #F69334;
+        color: #fff;
+    }
+}
+
+/*----------------------------------------------------------------
+- Header
+----------------------------------------------------------------*/
+
+#header{
+    padding: 18px;
+}
+
+#header2 {
+    padding-bottom: 40px;
+}
+
+#header2b {
+    font-size: 25px;
+}
+
+#header2a:before {
+    content:'\f098';
+    padding-right: 5px;
+    font-size: 37px;
+    color: #0098a9;
+}
+
+#wrapper { 
+    position: relative; 
+}
+/*----------------------------------------------------------------
+- Banner 
+----------------------------------------------------------------*/
+#banner p {
+    font-size: 20px;
+}
+
+#banner {
+    padding: 90px 0 115px;
+}
+
+.banner_cover {
+    opacity: 1.0;
+    background-color: rgba(255, 255, 255, 1.0);
+    border-bottom:5px solid #0098a9;
+}
+
+.bg {
+    background-color: rgba(43, 43, 43, 0.73);
+    padding: 20px 0px 20px 190px;
+    margin-left: -165px;
+}
+/*----------------------------------------------------------------
+- Services
+----------------------------------------------------------------*/
+#service1,
+#service2,
+#service3,
+#service4 {
+    transition: 0.2s 0.2s ease-out;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover {
+    transform: scale(1.1);
+    border-radius:0px;
+    background:rgba(243, 243, 243, 0.5);
+}
+
+/*----------------------------------------------------------------
+- Content
+----------------------------------------------------------------*/
+
+#content{
+    border-top:1px solid #000;
+}
+#content .img-responsive {
+    box-shadow: 2px 2px 5px #666;
+}
+
+#content1b {
+    background: #dd4b39;
+}
+
+#content2a {
+    background: #F69334;
+}
+
+#content3b {
+    background: #53b751;
+}
+
+#content4a {
+    background: #0098a9;
+}
+
+#content5b {
+    background: #dd2475;
+}
+
+#content1b, 
+#content2a, 
+#content3b, 
+#content4a, 
+#content5b, 
+#content6a {
+    padding-top: 31px;
+  }
+body p {
+    line-height: 21px;
+    font-size: 17px;
+}
+ul li{
+    line-height: 25px;
+    font-size: 17px;
+}
+/*----------------------------------------------------------------
+    Contact
+----------------------------------------------------------------*/
+blockquote {
+    padding: 20px 26px 20px;
+    background-color: #eae9e9;
+    border-color: #0098a9;
+    color:#000;
+}
+
+@media (min-width:768px){
+  #contact1 {
+      width:45%;
+  }
+  #contact2 {
+      width:55%;
+  }
+}
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a , footer {
+    color: #222;}
+footer {
+    background-color: #FFF;
+    padding: 25px 0 25px;}
+/*----------------------------------------------------------------
+  Hide Blocks
+----------------------------------------------------------------*/
+
+#contact2c,
+#contact2d,
+#contact2e,
+#contact2f,
+#contact2g,
+#content6 {
+    display: none;
+}
+
+/*----------------------------------------------------------------
+  Media Queries
+----------------------------------------------------------------*/
+@media only screen and (min-width: 992px){
+    .bg {
+        width: 95%;
+    }
+    #content1b, 
+    #content3b, 
+    #content5b {
+          margin-left:-20px;
+    }
+    #content2a, 
+    #content4a, 
+    #content6a  {
+          margin-right:-20px;
+    }
+}
+@media (max-width:991px){
+  .bg {
+      padding-left:0px;
+      margin-left: 0px;
+  }
+  #banner, #banner h1 {
+      margin:0;
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    .banner_cover {
+        height: 203px;
+    }
+    #banner h1 {
+      font-size:50px;
+    }
+    .content_block{
+      padding-bottom:20px;
+    }
+    #service3 {
+        clear:left;
+    }
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover {
+        transform: scale(1.0);
+    }
+}
+@media (min-width: 767px) {
+  .banner_cover{
+        height: 120px;
+  }
+  #content1a, #content2b, #content3a, #content4b, #content5a, #content6b {
+      width: 60%;
+    }
+  #content1b, #content2a, #content3b, #content4a, #content5b, #content6a {
+      width: 40%;
+    }
+  /* if images in content have set widths in the source code then active code below*/
+  #content img {
+      width:100% !important;
+    }
+}
+@media (max-width: 661px) {
+    .btn{
+        width:100%;      
+        padding-left:10px;
+        padding-right:10px;        
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 400px){
+    .banner_cover {
+        height:100%;
+        opacity: 0.5;
+    }
+}
+/*- Animation & Extras-*/
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;}
+  @-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}}
+    
+/*----------------------------------------------------------------
+  List
+----------------------------------------------------------------*/
+#content ul li:before, 
+#contact1a ul li:before, 
+#contact1b ul li:before, 
+#contact2 ul li:before {
+    content: '\f00c';
+}
+
+@media only screen and (max-width: 767px){
+    #content1b ul li:before, 
+    #content2a ul li:before, 
+    #content3b ul li:before, 
+    #content4a ul li:before, 
+    #content5b ul li:before,
+    #content6a ul li:before {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin-right: 8px;
+        }
+}
